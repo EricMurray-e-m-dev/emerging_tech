@@ -32,6 +32,8 @@ Implements a Python function generator that creates random Boolean functions gua
 **Problem 2: Classical Testing for Function Type**  
 Develops a classical algorithm to determine whether a mystery Boolean function is constant or balanced by querying it with different inputs. Analyzes the query complexity (worst case: 9 queries for 4-bit functions) to establish a baseline for quantum comparison.
 
+**Problem 3: Quantum Oracles**  
+Creates quantum oracles using Qiskit for the four single-bit Boolean functions used in Deutsch's algorithm. Demonstrates how classical functions are encoded as quantum circuits using quantum gates (X and CNOT), introducing the fundamental concept of reversible quantum computation.
 
 ### About
 Module: Emerging Technologies  
