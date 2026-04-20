@@ -2,30 +2,25 @@
 
 Coursework exploring classical vs quantum computing approaches to the Deutsch-Jozsa problem.
 
-## Setup
-
-0. Prerequisites:
+## Prerequisites
 
 - Python 3.8^
+- pip
+
+## Setup
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/EricMurray-e-m-dev/emerging_tech.git
 cd emerging_tech
 ```
 
 2. Install dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the notebook:
-
-```bash
-jupyter notebook problems.ipynb
-```
+3. Open & run the notebook sequentially.
 
 ## The Problems
 
@@ -42,9 +37,10 @@ Creates quantum oracles using Qiskit for the four single-bit Boolean functions u
 Implements the complete Deutsch's quantum algorithm circuit that determines if a single-bit function is constant or balanced using only one query. Demonstrates quantum interference and superposition, achieving the result with half the queries required classically.
 
 **Problem 5: Scaling to the Deutsch-Jozsa Algorithm**  
-Generalizes Deutsch's algorithm to handle 4-bit Boolean functions from Problem 1. Demonstrates the full quantum advantage where one quantum query replaces up to 9 classical queries, completing the journey from classical computation (Problem 2) to quantum supremacy for this problem class.
+Generalizes Deutsch's algorithm to handle 4-bit Boolean functions from Problem 1. Demonstrates the full quantum advantage where one quantum query replaces up to 9 classical queries.
 
-### About
+## About
 
-Module: Emerging Technologies  
-Author: Eric Murray - G00423903
+**Module:** Emerging Technologies  
+**Author:** Eric Murray - G00423903  
+**Academic Year:** 2025/2026
